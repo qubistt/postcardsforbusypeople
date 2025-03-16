@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+
+
+body {
+    background-color: #DEBF98;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 43px;
+    font-family: "Italiana", sans-serif;
+}
+
+.title {
+    display: flex;
+    width: 268px;
+    height: 225px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Italiana;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    right: 0;
+    font-size: 64px;
+}
+
+.carousel {
+
+    justify-content: center;
+    align-items: center;
+}
+img {
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.menuitem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+}
+
+.create, .view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Italiana;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
